@@ -11,3 +11,5 @@ This pig game
      Then the game will be Finish. The user can restart by touching 'NEW GAME' button.
      
  GOOD LUCK 😀 
+
+![Js1](https://user-images.githubusercontent.com/103646926/205488514-79566663-248f-41f4-a1a2-5f4e92404936.png)
