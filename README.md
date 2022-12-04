@@ -13,3 +13,6 @@ This pig game
  GOOD LUCK 😀 
 
 ![Js1](https://user-images.githubusercontent.com/103646926/205488514-79566663-248f-41f4-a1a2-5f4e92404936.png)
+
+![Js2](https://user-images.githubusercontent.com/103646926/205488556-cb99eb9b-a812-44da-a43a-97a460c4a8f4.png)
+
