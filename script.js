@@ -27,21 +27,18 @@ const switchpalyer = function () {
 
 btnRoll.addEventListener('click', function(){
     if (playing) { 
-const player0El = document.querySelector('.player--0');
-const player1El = document.querySelector('.player--1'); 
-const dice = Math.trunc(Math.random() * 6) + 1;
-diceEl.classList.remove('hidden');
-diceEl.src = `dice-${dice}.png`; 
-if(dice !== 1){
-   
-    currentScore += dice;
-    document.getElementById(`current--${activePlayer}`).textContent = currentScore;
-    
-}else{
-
-    switchpalyer();
-}
-}
+            const player0El = document.querySelector('.player--0');
+            const player1El = document.querySelector('.player--1'); 
+            const dice = Math.trunc(Math.random() * 6) + 1;
+            diceEl.classList.remove('hidden');
+            diceEl.src = `dice-${dice}.png`; 
+            if(dice !== 1){
+                currentScore += dice;
+                document.getElementById(`current--${activePlayer}`).textContent = currentScore;
+            }else{
+                switchpalyer();
+                }
+               }
 });
  btnHold.addEventListener('click', function () {
     if (playing) {
